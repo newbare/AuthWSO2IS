@@ -1,0 +1,13 @@
+[2017-12-07 12:30:25,051]  INFO {AUDIT_LOG}-  Initiator : wso2.system.user | Action : Add BPS Profile | Data : { "Profile Name" : "embeded_bps","Manager Host URL" : "https://localhost:9443/services","Worker Host URL" : "https://localhost:9443/services","User" : "admin" } | Result :  Success  
+[2017-12-07 12:34:10,572]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-12-07 12:34:10,571+0530] 
+[2017-12-07 12:41:57,412]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add Role | Target : employee | Data : { Users : [admin] Permissions : [org.wso2.carbon.user.api.Permission@668ae7cd] } | Result : Success  
+[2017-12-07 13:20:08,498]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-12-07 13:20:08,497+0530] 
+[2017-12-07 13:39:40,656]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add Role | Target : reporting_manager | Data : { Users : [] Permissions : [org.wso2.carbon.user.api.Permission@7344ff02] } | Result : Success  
+[2017-12-07 13:40:03,715]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add User | Target : Mudit | Data : { Roles :employee, } | Result : Success  
+[2017-12-07 13:40:24,831]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Add User | Target : Sowmya | Data : { Roles :reporting_manager, } | Result : Success  
+[2017-12-07 13:40:38,095]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Update Roles of User | Target : admin | Data : { Roles : [] } | Result : Success  
+[2017-12-07 13:40:40,624]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Update Roles of User | Target : admin | Data : { Roles : [] } | Result : Success  
+[2017-12-07 13:43:16,926]  INFO {AUDIT_LOG}-  Initiator : admin@carbon.super | Action : Update Roles of User | Target : Sowmya | Data : { Roles : [employee] } | Result : Success  
+[2017-12-07 14:08:38,894]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-12-07 14:08:38,894+0530] 
+[2017-12-07 14:48:49,537]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-12-07 14:48:49,533+0530] 
+[2017-12-07 14:51:04,763]  INFO {AUDIT_LOG}-  'admin@carbon.super [-1234]' logged in at [2017-12-07 14:51:04,762+0530] 
